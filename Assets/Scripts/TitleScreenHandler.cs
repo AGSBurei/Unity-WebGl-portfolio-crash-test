@@ -10,16 +10,21 @@ public class TitleScreenHandler : MonoBehaviour
     [SerializeField]
     public Animator mainCanvasAnimator;
     // Start is called before the first frame update
-    public void OnClick()
+    public void EnglishButtonOnClick()
     {
-        switch (gameObject.name)
-        {
-            case "EnLanguageBtn":
-                mainCanvasAnimator.SetTrigger("EnglishButtonIsClicked");
-                break;
-            case "FrLanguageBtn":
-                mainCanvasAnimator.SetTrigger("FrenchButtonIsClicked");
-                break;
-        }
+        SetTrigger();
+        Debug.Log("English Button Is Clicked");
+    }
+    public void FrenchButtonOnClick()
+    {
+        SetTrigger();
+        Debug.Log("French Button Is Clicked");
+    }
+
+    public void SetTrigger()
+    {
+        mainCanvasAnimator.Play("ExitTitleScreenAnimation");
     }
 }
+
+    

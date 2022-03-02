@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 0fae39684713c2543b40d84e0b447388
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Aero Matics Light
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a5b76512294860d479d1fcf68c0b26d3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
